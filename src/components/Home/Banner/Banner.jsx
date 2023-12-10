@@ -21,9 +21,9 @@ const Banner = () => {
                         <header className="px-4 py-3 bg-2 text-gray-100">
                             <div className="flex justify-between h-16 mx-auto">
                                 <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
-                                    <img src={logo} className="lg:w-16 w-16" />
+                                    <img src={logo} className="lg:w-20 w-16" />
                                 </a>
-                                <ul className="items-stretch hidden space-x-3 md:flex mr-10">
+                                <ul className="items-stretch hidden space-x-7 md:flex mr-10">
                                     <li className="flex">
                                         <a rel="noopener noreferrer" href="#" className="flex items-center px-4 mb-7 text-gray-100 btn-md bg-gradient-to-tr text-base from-blue-500 to-violet-600 rounded-xl border-gray-800 shadow-xl">Home</a>
                                     </li>

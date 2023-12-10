@@ -14,7 +14,7 @@ import css from '../../../assets/icons/css.svg'
 const Skills = () => {
     return (
         <div>
-            <section className="py-12 dark:bg-gray-50 dark:text-gray-800">
+            <section className="py-12 dark:text-gray-800">
                 <div className="container p-4 mx-auto my-6 space-y-1 text-center">
                     <h2 className="pb-3 text-3xl font-bold md:text-4xl">My Skills</h2>
                     <p className='lg:w-6/12 mx-auto `lg:text-lg w-11/12'>Technologies at My Fingertips: Building with React, Node.js, Express.js, MongoDB, Firebase, JWT, JavaScript, Tailwind CSS, HTML5, and CSS3.</p>
