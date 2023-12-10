@@ -9,7 +9,6 @@ import Contact from '../Contact/Contact'
 const Home = () => {
     return (
         <div>
-            <h2>Home</h2>
             <Banner></Banner>
             <AboutMe></AboutMe>
             <Skills></Skills>
