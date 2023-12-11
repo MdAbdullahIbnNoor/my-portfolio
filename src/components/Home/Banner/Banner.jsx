@@ -1,12 +1,20 @@
 import React from 'react';
+import { MdDownload } from "react-icons/md";
 import banner from '../../../assets/banner.png';
 import image from '../../../assets/dp2.png';
 import logo from "../../../assets/logo.png";
+import resumePdf from '../../../assets/resume.pdf';
 
 const Banner = () => {
+    const handleDownloadResume = () => {
+        const link = document.createElement('a');
+        link.href = resumePdf;
+        link.download = 'resume.pdf';
+        link.click();
+    };
+
     return (
         <div>
-
             <div className='lg:h-[700px]'>
                 <section
                     className="bg-gray-800 text-gray-800"
@@ -56,7 +64,15 @@ const Banner = () => {
                             <p className="mt-6 mb-8 lg:text-lg mx-2 text-center lg:text-left lg:mx-0">Enthusiastic about leveraging the power of the MERN stack to build robust and scalable applications that leave a lasting impact.
                             </p>
                             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                                <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded bg-gradient-to-r to-blue-400 from-violet-600 text-gray-200">My Resume</a>
+                                <a
+                                    rel="noopener noreferrer"
+                                    href="#"
+                                    className="flex gap-2 items-center shadow-xl px-4 py-3 text-lg font-semibold rounded bg-gradient-to-r to-blue-400 from-violet-600 text-gray-200"
+                                    onClick={handleDownloadResume}
+                                >
+                                    
+                                    <span><MdDownload className='text-2xl'/> </span>My Resume
+                                </a>
                                 <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold border rounded border-gray-800 shadow-xl">Contact Me</a>
                             </div>
                         </div>
