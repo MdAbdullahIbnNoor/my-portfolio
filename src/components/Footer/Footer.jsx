@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-800 w-full py-8">
+    <footer className="bg-white dark:bg-gradient-to-r from-blue-600 to-indigo-800 w-full py-8">
       <div className="max-w-screen-xl px-4 mx-auto">
         <ul className="flex flex-wrap justify-between max-w-screen-md mx-auto text-lg font-light">
           <li className="my-2">
@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <div className="pt-8 flex max-w-xs mx-auto items-center justify-between">
+        <div className="pb-6 flex max-w-xs mx-auto items-center justify-between border-b-2 mt-8 border-gray-300">
         <a href="#" class="text-gray-400 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
                 <svg width="20" height="20" fill="currentColor" class="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z">
@@ -51,10 +51,9 @@ const Footer = () => {
                     </path>
                 </svg>
             </a>
-          {/* Add similar JSX for other social media icons */}
         </div>
         <div className="text-center text-gray-500 dark:text-gray-200 pt-10 sm:pt-12 font-light flex items-center justify-center">
-          Created by Charlie
+          Created by AB Noor
         </div>
       </div>
     </footer>
