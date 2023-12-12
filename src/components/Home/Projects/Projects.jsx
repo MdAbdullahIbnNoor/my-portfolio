@@ -14,7 +14,7 @@ const Projects = () => {
           <p className="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
           This Forum application is a full-stack web platform developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides a space for users to engage in conversations through posted messages. The application is designed to be responsive across various devices, ensuring a seamless user experience.
           </p>
-          <a href="#" className="w-full btn bg-gradient-to-r to-blue-400 from-violet-600 text-white sm:w-auto">Learn More</a>
+          <a href="https://forum-page-53cdf.web.app/" className="w-full btn bg-gradient-to-r to-blue-400 from-violet-600 text-white sm:w-auto">Learn More</a>
         </div>
         <div className="w-full h-full bg-gray-200">
           <img src={banner01} className="w-full h-full" />
@@ -26,7 +26,7 @@ const Projects = () => {
           <p className="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
           The Online Group Study web application is a platform that facilitates collaborative learning by allowing users to create assignments, complete them, and grade their friends' assignments. Below are the features and usage guidelines for this web application.
           </p>
-          <a href="#" className="w-full btn bg-gradient-to-r to-blue-400 from-violet-600 text-white sm:w-auto">Learn More</a>
+          <a href="https://online-group-study.web.app/" className="w-full btn bg-gradient-to-r to-blue-400 from-violet-600 text-white sm:w-auto">Learn More</a>
         </div>
         <div className="w-full h-full bg-gray-200">
           <img src={banner02} className="w-full h-full" />
@@ -40,7 +40,7 @@ const Projects = () => {
 
 
           </p>
-          <a href="#" className="w-full btn bg-gradient-to-r to-blue-400 from-violet-600 text-white sm:w-auto">Learn More</a>
+          <a href="https://brand-store-97be7.web.app/" className="w-full btn bg-gradient-to-r to-blue-400 from-violet-600 text-white sm:w-auto">Learn More</a>
         </div>
         <div className="w-full h-full bg-gray-200">
           <img src={banner03} className="w-full h-full" />
